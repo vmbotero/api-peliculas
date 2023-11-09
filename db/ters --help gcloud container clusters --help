@@ -1,0 +1,75 @@
+[m[1mNAME[m
+    gcloud container - deploy and manage clusters of machines for running
+        containers
+
+[m[1mSYNOPSIS[m
+    [1mgcloud container[m [4mGROUP[m | [4mCOMMAND[m [[4mGCLOUD_WIDE_FLAG ...[m]
+
+[m[1mDESCRIPTION[m
+    The gcloud container command group lets you create and manage Google
+    Kubernetes Engine containers and clusters.
+
+    Kubernetes Engine is a cluster manager and orchestration system for running
+    your Docker containers. Kubernetes Engine schedules your containers into
+    the cluster and manages them automatically based on requirements you
+    define, such as CPU and memory.
+
+    More information on Kubernetes Engine can be found here:
+    https://cloud.google.com/kubernetes-engine and detailed documentation can
+    be found here: https://cloud.google.com/kubernetes-engine/docs/
+
+[m[1mGCLOUD WIDE FLAGS[m
+    These flags are available to all commands: --help.
+
+    Run [1m$ gcloud help[m for details.
+
+[m[1mGROUPS[m
+    [1m[1;4mGROUP[1m[m is one of the following:
+
+     [1mattached[m
+        Manage Attached clusters for running containers.
+
+     [1maws[m
+        Deploy and manage clusters of machines on AWS for running containers.
+
+     [1mazure[m
+        Deploy and manage clusters of machines on Azure for running containers.
+
+     [1mbare-metal[m
+        Deploy and manage Anthos clusters on bare metal for running containers.
+
+     [1mbinauthz[m
+        Manage attestations for Binary Authorization on Google Cloud Platform.
+
+     [1mclusters[m
+        Deploy and teardown Google Kubernetes Engine clusters.
+
+     [1mfleet[m
+        Centrally manage features and services on all your Kubernetes clusters
+        with fleet.
+
+     [1mhub[m
+        Centrally manage features and services on all your Kubernetes clusters
+        with fleet.
+
+     [1mimages[m
+        List and manipulate Google Container Registry images.
+
+     [1mnode-pools[m
+        Create and delete operations for Google Kubernetes Engine node pools.
+
+     [1moperations[m
+        Get and list operations for Google Kubernetes Engine clusters.
+
+     [1msubnets[m
+        Manage subnets to be used by Google Kubernetes Engine clusters.
+
+     [1mvmware[m
+        Deploy and manage Anthos clusters on VMware for running containers.
+
+[m[1mCOMMANDS[m
+    [1m[1;4mCOMMAND[1m[m is one of the following:
+
+     [1mget-server-config[m
+        Get Kubernetes Engine server config.
+[m
